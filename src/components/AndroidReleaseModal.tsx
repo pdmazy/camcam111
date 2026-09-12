@@ -56,11 +56,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: 'npm'
 
       - name: Install dependencies & Build Web Assets
         run: |
-          npm ci
+          npm install
           npm run build
 
       - name: Sync Capacitor Android
