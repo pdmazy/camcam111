@@ -1,0 +1,6 @@
+{
+  "name": "اسکنر و فتوکپی هوشمند",
+  "description": "اپلیکیشن تبدیل تصاویر مدارک به فتوکپی و اسکن، تشخیص خودکار لبه، تنظیم دستی، خروجی PDF و سازگار با بازار و مایکت (API 34)",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
